@@ -5,9 +5,11 @@ class Vehicle:
     passengers = True
     capacity = 0
 
+
 class Car(Vehicle):
     model = ""
     color = ""
+
 
 class Airplane(Vehicle):
     airline = ""
