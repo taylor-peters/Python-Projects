@@ -1,5 +1,6 @@
 
 class encapSub:
+    # Sets protected and private variables
     def __init__(self):
         self._protectedVar = 'Ham'
         self.__privateVar = 'Rye'
@@ -18,12 +19,15 @@ class encapSub:
 
 sandwich = encapSub()
 
-sandwich.getMeat()
+print(sandwich._protectedVar)   # Works with protected access
 sandwich.getBread()
 
+sandwich._protectedVar = 'Turkey'   # Changes protected var. Won't work for private
 sandwich.chgBrd('wheat')
-sandwich.chgMeat('Turkey')
 
-sandwich.getMeat()
+print(sandwich._protectedVar)
 sandwich.getBread()
+
+print(sandwich._protectedVar)   
+print(sandwich.__privateVar)    # Deliberately coded to cause an error
 
