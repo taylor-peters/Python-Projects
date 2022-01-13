@@ -1,10 +1,10 @@
 # Python Projects
 
 ### [Django Checkbook](https://github.com/taylor-peters/Django_Checkbook)
-Utilizing the Django framework and static files provided by The Tech Academy, I constructed a basic banking application.
+Utilizing the Django framework and static files provided by The Tech Academy, I constructed a basic banking application.  This project was one of the final challenges in the Python Course and was designed to build on the preceding series.
 
 ### [Django University Project](https://github.com/taylor-peters/DjangoUniversity)
-Utilizing the Django framework, I constructed a simple university administrative program.
+Utilizing the Django framework, I constructed a simple university administrative program.  This was the culmination on a tutuorial series of videos that taught the fundamentals of the framework.
 
 ### [Golf Simulator](https://github.com/taylor-peters/Python-Projects/commit/803c0541b9fbeb8f5f7beaa37835996d27062324)
 Based on fundamentals covered in The Tech Academy's "Nice/Mean" game assignment, I developed this rudimentary golf simulator which allows you to play six, randomly-generated holes.  You can select from five clubs each swing, each with different distance ranges.  The game tracks your total strokes and your par. 
@@ -17,3 +17,4 @@ Part of a series of challenges in The Tech Academy's Python Course.  This basic 
 - No Documents Uploaded - 12/7/2021
 - Golf Sim - 12/13/2021
 - Webpage Generator - 12/23/2021
+- Django Projects - 1/13/2022
